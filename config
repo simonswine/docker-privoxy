@@ -1,0 +1,7 @@
+listen-address 0.0.0.0:8123
+permit-access 127.0.0.1/32
+permit-access 10.0.0.0/8
+permit-access 172.16.0.0/12
+permit-access 192.168.0.0/16
+permit-access 100.64.0.0/10
+forward-socks5 / localhost:9050 .
